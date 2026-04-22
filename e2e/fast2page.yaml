@@ -1,0 +1,30 @@
+appId: "${APP_ID}"
+name: "fast2pageTestFlow"
+# Suite: fast2page
+# Consolidated test flow for fast2page screen
+# Contains 4 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASText:Get_Started is displayed on the screen: Verifies that the widget:Get_Started renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Get_Started"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASText:Get_Started is displayed on the screen: Verifies that the label of widget:Get_Started appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Get_Started"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Get_Started"
+- waitForAnimationToEnd: {}
+# 3. Verify App Header in screen fast2page is displayed: Verifies that the App Header renders correctly and all its components are visible to the user in screen fast2page.
+- waitForAnimationToEnd: {}
+# 4. Verify App Header right action 1 in screen fast2page is displayed: Verifies that the right action button at position 1 in the App Header of screen fast2page renders correctly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "header-action-right-0"
