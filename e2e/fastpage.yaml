@@ -1,0 +1,12 @@
+appId: "${APP_ID}"
+name: "fastpageTestFlow"
+# Suite: fastpage
+# Consolidated test flow for fastpage screen
+# Contains 1 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASImage:image_removebg_preview_6_1 is displayed on the screen: Verifies that the widget:image_removebg_preview_6_1 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "image_removebg_preview_6_1"
