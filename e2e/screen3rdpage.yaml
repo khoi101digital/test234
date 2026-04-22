@@ -1,0 +1,155 @@
+appId: "${APP_ID}"
+name: "screen3rdpageTestFlow"
+# Suite: Screen3rdpage
+# Consolidated test flow for Screen3rdpage screen
+# Contains 20 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASImage:image_removebg_preview_1_2 is displayed on the screen: Verifies that the widget:image_removebg_preview_1_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "image_removebg_preview_1_2"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASText:Boof_Burger is displayed on the screen: Verifies that the widget:Boof_Burger renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Boof_Burger"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASText:Boof_Burger is displayed on the screen: Verifies that the label of widget:Boof_Burger appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Boof_Burger"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Boof_Burger"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:1 is displayed on the screen: Verifies that the widget:1 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "1"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASText:1 is displayed on the screen: Verifies that the label of widget:1 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "1"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "1"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASText:Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt is displayed on the screen: Verifies that the widget:Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASText:Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt is displayed on the screen: Verifies that the label of widget:Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASButton:Rectangle_12 is displayed on the screen: Verifies that the widget:Rectangle_12 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Rectangle_12"
+- waitForAnimationToEnd: {}
+# 9. Verify event:onPress using widget ASButton:Rectangle_12 in screen Screen3rdpage should navigate to Screen4thpage: Verify that triggering event:onPress using widget: Rectangle_12 in screen Screen3rdpage correctly navigates to the next screen Screen4thpage with all required fields filled beforehand.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Rectangle_12"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Rectangle_12"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "f145b21b-4956-4a56-9d0b-8fdfdd563c9f"
+    optional: true
+- waitForAnimationToEnd: {}
+# 10. Navigate back after verifying event:onPress from ASButton:Rectangle_12: This test case checks if the Navigate back after verifying event:onPress from ASButton:Rectangle_12 works correctly.
+- runFlow:
+    file: "common/backAndWait.yaml"
+    env: {}
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:4_8 is displayed on the screen: Verifies that the widget:4_8 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "4_8"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:4_8 is displayed on the screen: Verifies that the label of widget:4_8 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "4_8"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "4_8"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:Add_Ons is displayed on the screen: Verifies that the widget:Add_Ons renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Add_Ons"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASText:Add_Ons is displayed on the screen: Verifies that the label of widget:Add_Ons appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Add_Ons"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Add_Ons"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASImage:png_transparent_white_bread_bread_baked_goods_food_whole_grain_thumbnail_1 is displayed on the screen: Verifies that the widget:png_transparent_white_bread_bread_baked_goods_food_whole_grain_thumbnail_1 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "png_transparent_white_bread_bread_baked_goods_food_whole_grain_thumbnail_1"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASImage:Pencicah_340KG_F_1 is displayed on the screen: Verifies that the widget:Pencicah_340KG_F_1 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Pencicah_340KG_F_1"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASImage:homemade_tomato_lentil_soup_in_a_white_bowl_with_saucer_side_view_M6BM0X_1 is displayed on the screen: Verifies that the widget:homemade_tomato_lentil_soup_in_a_white_bowl_with_saucer_side_view_M6BM0X_1 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "homemade_tomato_lentil_soup_in_a_white_bowl_with_saucer_side_view_M6BM0X_1"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASImage:add_circle1 is displayed on the screen: Verifies that the widget:add_circle1 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "add_circle1"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASImage:add_circle3 is displayed on the screen: Verifies that the widget:add_circle3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "add_circle3"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASImage:add_circle5 is displayed on the screen: Verifies that the widget:add_circle5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "add_circle5"
+- waitForAnimationToEnd: {}
