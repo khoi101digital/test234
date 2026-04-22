@@ -1,0 +1,35 @@
+appId: ${APP_ID}
+name: Master Test Suite
+# Generated Consolidated Test Suite Information:
+# Each screen has a single consolidated flow file containing all its test cases
+# Suite: fast2page
+# Consolidated flow file: fast2page.yaml
+# Contains 4 test case(s):
+
+# Suite: fastpage
+# Consolidated flow file: fastpage.yaml
+# Contains 1 test case(s):
+
+# Suite: Screen3rdpage
+# Consolidated flow file: screen3rdpage.yaml
+# Contains 21 test case(s):
+
+# Suite: Screen2ndpage
+# Consolidated flow file: screen2ndpage.yaml
+# Contains 39 test case(s):
+
+# Suite: Screen4thpage
+# Consolidated flow file: screen4thpage.yaml
+# Contains 38 test case(s):
+
+---
+- runFlow:
+    file: fast2page.yaml
+- runFlow:
+    file: fastpage.yaml
+- runFlow:
+    file: screen3rdpage.yaml
+- runFlow:
+    file: screen2ndpage.yaml
+- runFlow:
+    file: screen4thpage.yaml
