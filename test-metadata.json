@@ -1,0 +1,2772 @@
+{
+  "generated": "2026-04-22T14:44:00.968Z",
+  "appName": "test234",
+  "projectPath": "./apps/ReactNative/2497659f-5041-422c-84a3-43bdfeddeb57/test234",
+  "totalSuites": 5,
+  "totalTests": 103,
+  "suites": [
+    {
+      "id": "5f2fdbc5-8d4d-4752-829f-b4f76d9efd65",
+      "name": "fast2page",
+      "screenName": "fast2page",
+      "fileName": "fast2page.yaml",
+      "testCount": 4,
+      "tests": [
+        {
+          "id": "13e67e8c-e583-4bb8-8de0-3623400332df",
+          "title": "Verify widget ASText:Get_Started is displayed on the screen",
+          "description": "Verifies that the widget:Get_Started renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Get_Started",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "4f186e39-2e7a-4a28-b259-e95f812d9e30",
+          "title": "Verify widget ASText:Get_Started is displayed on the screen",
+          "description": "Verifies that the label of widget:Get_Started appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Get_Started",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Get_Started",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "eb7b5b7f-2cb7-4088-8b6a-31edee8dd7ae",
+          "title": "Verify App Header in screen fast2page is displayed",
+          "description": "Verifies that the App Header renders correctly and all its components are visible to the user in screen fast2page.",
+          "type": "ASAppHeader",
+          "steps": [],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "9083b96e-43d3-4365-a924-03af7e267bd1",
+          "title": "Verify App Header right action 1 in screen fast2page is displayed",
+          "description": "Verifies that the right action button at position 1 in the App Header of screen fast2page renders correctly and is visible to the user.",
+          "type": "ASAppHeader",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "header-action-right-0",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "999e4014-98f2-4b02-9201-0afe579c6e7e",
+      "name": "fastpage",
+      "screenName": "fastpage",
+      "fileName": "fastpage.yaml",
+      "testCount": 1,
+      "tests": [
+        {
+          "id": "58ab8aca-c318-431d-a79e-637fde5a11aa",
+          "title": "Verify widget ASImage:image_removebg_preview_6_1 is displayed on the screen",
+          "description": "Verifies that the widget:image_removebg_preview_6_1 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "image_removebg_preview_6_1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "af31dec7-d53e-4314-a1d8-a10cb4bb3cac",
+      "name": "Screen3rdpage",
+      "screenName": "Screen3rdpage",
+      "fileName": "screen3rdpage.yaml",
+      "testCount": 21,
+      "tests": [
+        {
+          "id": "d4ab5aa6-4bf3-4619-af25-0372c5cb9311",
+          "title": "Verify widget ASImage:image_removebg_preview_1_2 is displayed on the screen",
+          "description": "Verifies that the widget:image_removebg_preview_1_2 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "image_removebg_preview_1_2",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "293f8403-ae2b-4da5-bb68-9d0ad00f907b",
+          "title": "Verify widget ASText:Boof_Burger is displayed on the screen",
+          "description": "Verifies that the widget:Boof_Burger renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Boof_Burger",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "a2c020dd-a8e6-44c3-803d-6eb2633354bc",
+          "title": "Verify widget ASText:Boof_Burger is displayed on the screen",
+          "description": "Verifies that the label of widget:Boof_Burger appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Boof_Burger",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Boof_Burger",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "34763a9d-c4ad-4496-b299-251676bc511b",
+          "title": "Verify widget ASText:1 is displayed on the screen",
+          "description": "Verifies that the widget:1 renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "6bcc31c1-c80a-4fca-9c81-87806c215c4e",
+          "title": "Verify widget ASText:1 is displayed on the screen",
+          "description": "Verifies that the label of widget:1 appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "1",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "bda9c1af-94d7-48a0-95f3-76d4ab1ed55d",
+          "title": "Verify widget ASText:Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt is displayed on the screen",
+          "description": "Verifies that the widget:Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "498dbd3c-1ab4-41ce-a806-5ffdd4591954",
+          "title": "Verify widget ASText:Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt is displayed on the screen",
+          "description": "Verifies that the label of widget:Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "42d09563-f903-4cd1-8dea-7545993e2d00",
+          "title": "Verify widget ASButton:Rectangle_12 is displayed on the screen",
+          "description": "Verifies that the widget:Rectangle_12 renders properly and is visible to the user.",
+          "type": "ASButton",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "button-Rectangle_12",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "3185c5e9-0f48-4ee8-a9cc-2390f08fd75d",
+          "title": "Verify widget ASButton:Rectangle_12 functionalities",
+          "description": "Verifies that tapping button widget:Rectangle_12 works correctly and triggers the expected action.",
+          "type": "ASButton",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "button-Rectangle_12",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "button-Rectangle_12",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "fbe0d5c1-db91-4b58-b82b-8dc19eb8adbb",
+          "title": "Verify event:onPress using widget ASButton:Rectangle_12 in screen Screen3rdpage should navigate to Screen4thpage",
+          "description": "Verify that triggering event:onPress using widget: Rectangle_12 in screen Screen3rdpage correctly navigates to the next screen Screen4thpage with all required fields filled beforehand.",
+          "type": "ASButton",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "button-Rectangle_12",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "tapOn",
+              "element": "button-Rectangle_12",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertScreenVisible",
+              "element": "f145b21b-4956-4a56-9d0b-8fdfdd563c9f",
+              "value": "",
+              "optional": true,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "00013d1e-59df-4039-b525-e45f08918794",
+          "title": "Navigate back after verifying event:onPress from ASButton:Rectangle_12",
+          "description": "This test case checks if the Navigate back after verifying event:onPress from ASButton:Rectangle_12 works correctly.",
+          "type": "ASButton",
+          "steps": [
+            {
+              "action": "back",
+              "element": "",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "15e9bebb-28b8-4e66-b0ff-7dc2d1bb1fa7",
+          "title": "Verify widget ASText:4_8 is displayed on the screen",
+          "description": "Verifies that the widget:4_8 renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "4_8",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "fa9a831e-bd5e-4385-8121-dd9936905336",
+          "title": "Verify widget ASText:4_8 is displayed on the screen",
+          "description": "Verifies that the label of widget:4_8 appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "4_8",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "4_8",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "a86a990d-0003-49e6-babb-42845fe1eac7",
+          "title": "Verify widget ASText:Add_Ons is displayed on the screen",
+          "description": "Verifies that the widget:Add_Ons renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Add_Ons",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "84df1687-af6c-4e37-860e-1e0dc1a90aa5",
+          "title": "Verify widget ASText:Add_Ons is displayed on the screen",
+          "description": "Verifies that the label of widget:Add_Ons appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Add_Ons",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Add_Ons",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "6ee6f179-d0f3-4012-98d4-981e3354dcf8",
+          "title": "Verify widget ASImage:png_transparent_white_bread_bread_baked_goods_food_whole_grain_thumbnail_1 is displayed on the screen",
+          "description": "Verifies that the widget:png_transparent_white_bread_bread_baked_goods_food_whole_grain_thumbnail_1 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "png_transparent_white_bread_bread_baked_goods_food_whole_grain_thumbnail_1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "0f7740e0-0bc8-48a3-87c8-b53b80f65edf",
+          "title": "Verify widget ASImage:Pencicah_340KG_F_1 is displayed on the screen",
+          "description": "Verifies that the widget:Pencicah_340KG_F_1 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Pencicah_340KG_F_1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "90e974e1-3d99-4af7-b23a-c38196dbd204",
+          "title": "Verify widget ASImage:homemade_tomato_lentil_soup_in_a_white_bowl_with_saucer_side_view_M6BM0X_1 is displayed on the screen",
+          "description": "Verifies that the widget:homemade_tomato_lentil_soup_in_a_white_bowl_with_saucer_side_view_M6BM0X_1 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "homemade_tomato_lentil_soup_in_a_white_bowl_with_saucer_side_view_M6BM0X_1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "4b871e29-f206-4c3a-875b-e5d2a78d9e1b",
+          "title": "Verify widget ASImage:add_circle1 is displayed on the screen",
+          "description": "Verifies that the widget:add_circle1 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "add_circle1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "9bf5da0e-e06f-4b61-ba48-bea14b5bf6ef",
+          "title": "Verify widget ASImage:add_circle3 is displayed on the screen",
+          "description": "Verifies that the widget:add_circle3 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "add_circle3",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "ea05fcc1-1100-47cd-a445-5ce9c3189ed7",
+          "title": "Verify widget ASImage:add_circle5 is displayed on the screen",
+          "description": "Verifies that the widget:add_circle5 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "add_circle5",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c19ca360-5cd6-45d9-9ce8-73779e4c55d1",
+      "name": "Screen2ndpage",
+      "screenName": "Screen2ndpage",
+      "fileName": "screen2ndpage.yaml",
+      "testCount": 39,
+      "tests": [
+        {
+          "id": "ae4d015d-9990-4b1e-916f-7fd77c0e9202",
+          "title": "Verify widget ASText:Menu is displayed on the screen",
+          "description": "Verifies that the widget:Menu renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Menu",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "3ea239fb-bbb0-482e-86f9-096958cba20b",
+          "title": "Verify widget ASText:Menu is displayed on the screen",
+          "description": "Verifies that the label of widget:Menu appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Menu",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Menu",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "b72f0b8e-def4-4ca2-8012-590db1a24f43",
+          "title": "Verify widget ASText:Promation is displayed on the screen",
+          "description": "Verifies that the widget:Promation renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Promation",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "3bc87970-5673-43e2-b913-7ce4901cde1f",
+          "title": "Verify widget ASText:Promation is displayed on the screen",
+          "description": "Verifies that the label of widget:Promation appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Promation",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Promation",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "ee1786e2-5a60-413b-94f0-8e5a0366a5af",
+          "title": "Verify widget ASText:Populor is displayed on the screen",
+          "description": "Verifies that the widget:Populor renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Populor",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "7d5e92b3-a951-4187-885d-9733611a011e",
+          "title": "Verify widget ASText:Populor is displayed on the screen",
+          "description": "Verifies that the label of widget:Populor appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Populor",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Populor",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "2511c603-cddb-42a9-8917-00e02cccd308",
+          "title": "Verify widget ASTextField:Rectangle_2 is displayed on the screen",
+          "description": "Verifies that the widget:Rectangle_2 renders properly and is visible to the user.",
+          "type": "ASTextField",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "view-Rectangle_2",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "2ce3ec72-a2ea-4f06-a2cb-2dd241235765",
+          "title": "Verify widget ASTextField:Rectangle_2 functionalities",
+          "description": "Verifies that input widget:Rectangle_2 accepts valid input, handles long text, and supports special characters.",
+          "type": "ASTextField",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "view-Rectangle_2",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "view-Rectangle_2",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "inputText",
+              "element": "view-Rectangle_2",
+              "value": "",
+              "optional": false,
+              "testDataKey": "TC2411_RECTANGLE_2_VALUE"
+            },
+            {
+              "action": "pressKey",
+              "element": "view-Rectangle_2",
+              "value": "Enter",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "eraseText",
+              "element": "view-Rectangle_2",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "inputText",
+              "element": "view-Rectangle_2",
+              "value": "",
+              "optional": false,
+              "testDataKey": "TC2411_RECTANGLE_2_LONG_VALUE"
+            },
+            {
+              "action": "pressKey",
+              "element": "view-Rectangle_2",
+              "value": "Enter",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "eraseText",
+              "element": "view-Rectangle_2",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "inputText",
+              "element": "view-Rectangle_2",
+              "value": "",
+              "optional": false,
+              "testDataKey": "TC2411_RECTANGLE_2_SPECIAL_VALUE"
+            },
+            {
+              "action": "pressKey",
+              "element": "view-Rectangle_2",
+              "value": "Enter",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "eraseText",
+              "element": "view-Rectangle_2",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "9f72b394-17d5-4c1f-ae3a-d93592be1e02",
+          "title": "Verify widget ASButton:Rectangle_7 is displayed on the screen",
+          "description": "Verifies that the widget:Rectangle_7 renders properly and is visible to the user.",
+          "type": "ASButton",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "button-Rectangle_7",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "d033d90e-f9bf-40cc-a068-d881e0c6a75d",
+          "title": "Verify widget ASButton:Rectangle_7 functionalities",
+          "description": "Verifies that tapping button widget:Rectangle_7 works correctly and triggers the expected action.",
+          "type": "ASButton",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "button-Rectangle_7",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "button-Rectangle_7",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "4103a8e3-5cc7-4ba8-8985-04beedeedba7",
+          "title": "Verify widget ASButton:Rectangle_8 is displayed on the screen",
+          "description": "Verifies that the widget:Rectangle_8 renders properly and is visible to the user.",
+          "type": "ASButton",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "button-Rectangle_8",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "1f336c0a-15e2-48f1-9927-9797074bb286",
+          "title": "Verify widget ASButton:Rectangle_8 functionalities",
+          "description": "Verifies that tapping button widget:Rectangle_8 works correctly and triggers the expected action.",
+          "type": "ASButton",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "button-Rectangle_8",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "button-Rectangle_8",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "f390b451-55aa-4dff-b818-256e9ca3a9bc",
+          "title": "Verify event:onPress using widget ASButton:Rectangle_8 in screen Screen2ndpage should navigate to Screen3rdpage",
+          "description": "Verify that triggering event:onPress using widget: Rectangle_8 in screen Screen2ndpage correctly navigates to the next screen Screen3rdpage with all required fields filled beforehand.",
+          "type": "ASButton",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "button-Rectangle_8",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "tapOn",
+              "element": "button-Rectangle_8",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertScreenVisible",
+              "element": "daa0796e-4b34-4b90-92e8-d30471e639ac",
+              "value": "",
+              "optional": true,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "24380182-79af-4586-9f05-1621df626cbb",
+          "title": "Navigate back after verifying event:onPress from ASButton:Rectangle_8",
+          "description": "This test case checks if the Navigate back after verifying event:onPress from ASButton:Rectangle_8 works correctly.",
+          "type": "ASButton",
+          "steps": [
+            {
+              "action": "back",
+              "element": "",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "b6d83309-ad2c-463e-802f-e225f15e93b4",
+          "title": "Verify widget ASImage:1480972867043_1 is displayed on the screen",
+          "description": "Verifies that the widget:1480972867043_1 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "1480972867043_1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "02af424d-36b8-42e1-9c97-e53886b1eaa5",
+          "title": "Verify widget ASText:Chooso_Pizza is displayed on the screen",
+          "description": "Verifies that the widget:Chooso_Pizza renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Chooso_Pizza",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "23809ce0-ce20-4c7f-bd21-d7b836445e17",
+          "title": "Verify widget ASText:Chooso_Pizza is displayed on the screen",
+          "description": "Verifies that the label of widget:Chooso_Pizza appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Chooso_Pizza",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Chooso_Pizza",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "b3e70700-70bb-4a5f-bb68-c8143ac3daa3",
+          "title": "Verify widget ASImage:image_removebg_preview_1_1 is displayed on the screen",
+          "description": "Verifies that the widget:image_removebg_preview_1_1 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "image_removebg_preview_1_1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "5d0b0eb5-5f38-4329-843b-ed8084f0c275",
+          "title": "Verify widget ASImage:image_removebg_preview_2_1 is displayed on the screen",
+          "description": "Verifies that the widget:image_removebg_preview_2_1 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "image_removebg_preview_2_1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "3bc67223-d05d-45fc-a97a-9074fa7523cc",
+          "title": "Verify widget ASImage:image_removebg_preview_3_1 is displayed on the screen",
+          "description": "Verifies that the widget:image_removebg_preview_3_1 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "image_removebg_preview_3_1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "29c57df0-5c9c-45df-90f3-b8e9076d9e29",
+          "title": "Verify widget ASImage:image_removebg_preview_1 is displayed on the screen",
+          "description": "Verifies that the widget:image_removebg_preview_1 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "image_removebg_preview_1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "0bf11eac-2074-4bdc-9d7b-d442ef078a8e",
+          "title": "Verify widget ASText:All is displayed on the screen",
+          "description": "Verifies that the widget:All renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "All",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "590188a3-1d07-443d-9db9-267314e47027",
+          "title": "Verify widget ASText:All is displayed on the screen",
+          "description": "Verifies that the label of widget:All appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "All",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "All",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "b1d350fc-4348-48b4-885b-c32b337aa10c",
+          "title": "Verify widget ASText:Burger is displayed on the screen",
+          "description": "Verifies that the widget:Burger renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Burger",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "24c7f2c1-ace4-47d9-a263-611295ac2941",
+          "title": "Verify widget ASText:Burger is displayed on the screen",
+          "description": "Verifies that the label of widget:Burger appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Burger",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Burger",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "88ce199f-e379-4010-a419-a1d3cac16367",
+          "title": "Verify widget ASText:Pizza is displayed on the screen",
+          "description": "Verifies that the widget:Pizza renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Pizza",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "63eb2949-30aa-4b80-af3c-dd716f9df750",
+          "title": "Verify widget ASText:Pizza is displayed on the screen",
+          "description": "Verifies that the label of widget:Pizza appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Pizza",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Pizza",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "f47aaee2-270e-4ac2-93a5-6e81a58458db",
+          "title": "Verify widget ASText:Dessert is displayed on the screen",
+          "description": "Verifies that the widget:Dessert renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Dessert",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "a38aafec-14b8-4f31-979d-6fdae7efc8cc",
+          "title": "Verify widget ASText:Dessert is displayed on the screen",
+          "description": "Verifies that the label of widget:Dessert appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Dessert",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Dessert",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "f180bd35-05aa-4726-85f8-5ff8bafa3068",
+          "title": "Verify widget ASImage:bakery_biscuits_1 is displayed on the screen",
+          "description": "Verifies that the widget:bakery_biscuits_1 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "bakery_biscuits_1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "81b3fe02-a168-448d-b512-56e87f956762",
+          "title": "Verify widget ASText:Free_box_of_Fries is displayed on the screen",
+          "description": "Verifies that the widget:Free_box_of_Fries renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Free_box_of_Fries",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "a59500c3-5e3f-476c-a34f-064bbbaabc69",
+          "title": "Verify widget ASText:Free_box_of_Fries is displayed on the screen",
+          "description": "Verifies that the label of widget:Free_box_of_Fries appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Free_box_of_Fries",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Free_box_of_Fries",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "0ace42aa-19c6-402f-a99b-19d6eb8309ba",
+          "title": "Verify widget ASText:20 is displayed on the screen",
+          "description": "Verifies that the widget:20 renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "20",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "0f71c761-c092-4fa7-9ee3-22ad2f53dc87",
+          "title": "Verify widget ASText:20 is displayed on the screen",
+          "description": "Verifies that the label of widget:20 appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "20",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "20",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "d15679de-0939-4405-9902-cd53f27b7f72",
+          "title": "Verify widget ASText:32 is displayed on the screen",
+          "description": "Verifies that the widget:32 renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "32",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "b9782ba9-d975-456f-8710-200da5a080d2",
+          "title": "Verify widget ASText:32 is displayed on the screen",
+          "description": "Verifies that the label of widget:32 appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "32",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "32",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "3a84842a-f5b1-4f30-b03d-e2bde81f3f6c",
+          "title": "Verify widget ASImage:home1 is displayed on the screen",
+          "description": "Verifies that the widget:home1 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "home1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "7875c34b-c01f-438e-8395-a8aafe6fc9fa",
+          "title": "Verify widget ASText:11 is displayed on the screen",
+          "description": "Verifies that the widget:11 renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "11",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "24c55d41-dd7e-4906-ba04-194b7560e249",
+          "title": "Verify widget ASText:11 is displayed on the screen",
+          "description": "Verifies that the label of widget:11 appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "11",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "11",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a48c4b2c-66c8-44bb-a667-5f237b91956a",
+      "name": "Screen4thpage",
+      "screenName": "Screen4thpage",
+      "fileName": "screen4thpage.yaml",
+      "testCount": 38,
+      "tests": [
+        {
+          "id": "38c94d62-d89d-487a-bebc-d445916b6a89",
+          "title": "Verify widget ASText:2_items_in_cart is displayed on the screen",
+          "description": "Verifies that the widget:2_items_in_cart renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "2_items_in_cart",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "95220f27-16fb-460d-aafe-c1ae453b8e5c",
+          "title": "Verify widget ASText:2_items_in_cart is displayed on the screen",
+          "description": "Verifies that the label of widget:2_items_in_cart appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "2_items_in_cart",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "2_items_in_cart",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "686fa9a3-4847-4e67-a0eb-f33e88b5af3a",
+          "title": "Verify widget ASImage:image_removebg_preview_5_1 is displayed on the screen",
+          "description": "Verifies that the widget:image_removebg_preview_5_1 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "image_removebg_preview_5_1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "67250cdf-7532-4a0f-a04e-ca629edda557",
+          "title": "Verify widget ASImage:image_removebg_preview_1_3 is displayed on the screen",
+          "description": "Verifies that the widget:image_removebg_preview_1_3 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "image_removebg_preview_1_3",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "767338c3-8b06-4aa9-842f-31cfe43395fa",
+          "title": "Verify widget ASText:Noodlos is displayed on the screen",
+          "description": "Verifies that the widget:Noodlos renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Noodlos",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "2dc965fa-0058-4bf4-9314-d6b7bb3586f8",
+          "title": "Verify widget ASText:Noodlos is displayed on the screen",
+          "description": "Verifies that the label of widget:Noodlos appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Noodlos",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Noodlos",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "059254b3-6ea6-4fab-ae75-38f19c2f176a",
+          "title": "Verify widget ASText:Boof_Burger1 is displayed on the screen",
+          "description": "Verifies that the widget:Boof_Burger1 renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Boof_Burger1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "c4b34198-2242-46fc-a560-8ffcc5747a63",
+          "title": "Verify widget ASText:Boof_Burger1 is displayed on the screen",
+          "description": "Verifies that the label of widget:Boof_Burger1 appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Boof_Burger1",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Boof_Burger1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "b7cd9825-0939-474a-bb08-3bf0dcb26d1d",
+          "title": "Verify widget ASText:Order_instsctions is displayed on the screen",
+          "description": "Verifies that the widget:Order_instsctions renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Order_instsctions",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "a2df0235-91a1-418f-940c-c1acf6d897e8",
+          "title": "Verify widget ASText:Order_instsctions is displayed on the screen",
+          "description": "Verifies that the label of widget:Order_instsctions appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Order_instsctions",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Order_instsctions",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "0eb6cd90-a0c3-49c8-aac3-4f239bb6484a",
+          "title": "Verify widget ASText:Back_to_menu is displayed on the screen",
+          "description": "Verifies that the widget:Back_to_menu renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Back_to_menu",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "8e724aa1-0d41-43b6-9de3-b05a5e348307",
+          "title": "Verify widget ASText:Back_to_menu is displayed on the screen",
+          "description": "Verifies that the label of widget:Back_to_menu appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Back_to_menu",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Back_to_menu",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "3c476b65-4102-413a-bfa2-04f1271c9847",
+          "title": "Verify event:onPress using widget ASText:Back_to_menu in screen Screen4thpage should navigate to Screen2ndpage",
+          "description": "Verify that triggering event:onPress using widget: Back_to_menu in screen Screen4thpage correctly navigates to the next screen Screen2ndpage with all required fields filled beforehand.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Back_to_menu",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "tapOn",
+              "element": "Back_to_menu",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertScreenVisible",
+              "element": "aabcf61c-41c6-47db-b45b-1bfec17b7d61",
+              "value": "",
+              "optional": true,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "16a551fb-59b0-42fb-83fd-a7b59f9d027e",
+          "title": "Navigate back after verifying event:onPress from ASText:Back_to_menu",
+          "description": "This test case checks if the Navigate back after verifying event:onPress from ASText:Back_to_menu works correctly.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "back",
+              "element": "",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "813f8a3b-51c2-46f4-846c-ea50c2bc863a",
+          "title": "Verify widget ASText:Total is displayed on the screen",
+          "description": "Verifies that the widget:Total renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Total",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "b2104e0c-fa2d-4817-9350-2e0e64a15454",
+          "title": "Verify widget ASText:Total is displayed on the screen",
+          "description": "Verifies that the label of widget:Total appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Total",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Total",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "2d2402f3-a5c5-4560-861d-2a0be33a755a",
+          "title": "Verify widget ASText:Free_box_of_Fries1 is displayed on the screen",
+          "description": "Verifies that the widget:Free_box_of_Fries1 renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "Free_box_of_Fries1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "d18057f6-4eeb-43ff-8efe-fe008f46e2d8",
+          "title": "Verify widget ASText:Free_box_of_Fries1 is displayed on the screen",
+          "description": "Verifies that the label of widget:Free_box_of_Fries1 appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "Free_box_of_Fries1",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "Free_box_of_Fries1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "79995002-6b11-4f0f-bace-fbc28bcf985b",
+          "title": "Verify widget ASText:15 is displayed on the screen",
+          "description": "Verifies that the widget:15 renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "15",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "30a346a5-e116-4359-a63c-e15568cf9909",
+          "title": "Verify widget ASText:15 is displayed on the screen",
+          "description": "Verifies that the label of widget:15 appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "15",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "15",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "90f7badd-7561-4a17-852f-fc6d272fc886",
+          "title": "Verify widget ASText:201 is displayed on the screen",
+          "description": "Verifies that the widget:201 renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "201",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "9badd02e-9118-494a-be67-b09edfb855dc",
+          "title": "Verify widget ASText:201 is displayed on the screen",
+          "description": "Verifies that the label of widget:201 appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "201",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "201",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "861df9d4-003f-49a0-89fd-0ac3a44a6168",
+          "title": "Verify widget ASText:38 is displayed on the screen",
+          "description": "Verifies that the widget:38 renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "38",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "637e905f-b021-4b60-a7a9-4d56dc4d7af3",
+          "title": "Verify widget ASText:38 is displayed on the screen",
+          "description": "Verifies that the label of widget:38 appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "38",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "38",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "0c17f4e8-b60b-4987-8004-07f84273613e",
+          "title": "Verify widget ASImage:add_circle7 is displayed on the screen",
+          "description": "Verifies that the widget:add_circle7 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "add_circle7",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "9563b18f-2cbe-48c3-b14b-b4c3315867a4",
+          "title": "Verify widget ASImage:add_circle9 is displayed on the screen",
+          "description": "Verifies that the widget:add_circle9 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "add_circle9",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "3aef8448-72e7-4e12-a33d-0ac0d08b9373",
+          "title": "Verify widget ASImage:do_not_disturb_on1 is displayed on the screen",
+          "description": "Verifies that the widget:do_not_disturb_on1 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "do_not_disturb_on1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "75999493-795f-4a1a-beb6-b39162ef1bc8",
+          "title": "Verify widget ASImage:do_not_disturb_on3 is displayed on the screen",
+          "description": "Verifies that the widget:do_not_disturb_on3 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "do_not_disturb_on3",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "01d76e88-cd9e-4e36-8fbc-04fc1589163b",
+          "title": "Verify widget ASText:12 is displayed on the screen",
+          "description": "Verifies that the widget:12 renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "12",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "1840209b-d878-487e-ac44-620fb4a3fbfd",
+          "title": "Verify widget ASText:12 is displayed on the screen",
+          "description": "Verifies that the label of widget:12 appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "12",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "12",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "ebe62c39-240c-4087-ace6-d02a91c839e0",
+          "title": "Verify widget ASText:13 is displayed on the screen",
+          "description": "Verifies that the widget:13 renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "13",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "1c49d776-0563-4380-aa14-daeea5d5e660",
+          "title": "Verify widget ASText:13 is displayed on the screen",
+          "description": "Verifies that the label of widget:13 appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "13",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "13",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "53a6a969-874d-4860-9eef-22e3272a14b2",
+          "title": "Verify widget ASText:2 is displayed on the screen",
+          "description": "Verifies that the widget:2 renders properly and is visible to the user.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "2",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "c803e35e-21f5-4d64-935e-18bbc3bcac69",
+          "title": "Verify widget ASText:2 is displayed on the screen",
+          "description": "Verifies that the label of widget:2 appears correctly and is readable.",
+          "type": "ASText",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "2",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "2",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "837425f2-2b4b-4a34-807a-a9dd1f200bd4",
+          "title": "Verify widget ASButton:Rectangle_16 is displayed on the screen",
+          "description": "Verifies that the widget:Rectangle_16 renders properly and is visible to the user.",
+          "type": "ASButton",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "button-Rectangle_16",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "cd10e744-3e00-4bf9-9a01-865188392245",
+          "title": "Verify widget ASButton:Rectangle_16 functionalities",
+          "description": "Verifies that tapping button widget:Rectangle_16 works correctly and triggers the expected action.",
+          "type": "ASButton",
+          "steps": [
+            {
+              "action": "scrollUntilVisible",
+              "element": "button-Rectangle_16",
+              "value": "DOWN",
+              "optional": false,
+              "testDataKey": null
+            },
+            {
+              "action": "assertVisible",
+              "element": "button-Rectangle_16",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "415e045b-2681-4c55-a5ff-33d0ba092b2e",
+          "title": "Verify widget ASImage:nest_heat_link_e1 is displayed on the screen",
+          "description": "Verifies that the widget:nest_heat_link_e1 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "nest_heat_link_e1",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        },
+        {
+          "id": "772ca5a6-7261-449d-8f38-d525655ce3bb",
+          "title": "Verify widget ASImage:nest_heat_link_e3 is displayed on the screen",
+          "description": "Verifies that the widget:nest_heat_link_e3 renders properly and is visible to the user.",
+          "type": "ASImage",
+          "steps": [
+            {
+              "action": "assertVisible",
+              "element": "nest_heat_link_e3",
+              "value": "",
+              "optional": false,
+              "testDataKey": null
+            }
+          ],
+          "preconditions": [
+            {
+              "action": "launchApp",
+              "element": "",
+              "value": "",
+              "testCaseId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
